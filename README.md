@@ -29,6 +29,10 @@ run below
 PIPENV_VENV_IN_PROJECT=1 pipenv install --dev
 ```
 
+* **IMPORTANT**. Make sure to create your `.env` for necessary environment variables.
+`.env.example` could be your template, just copy paste it.
+
+
 ## Usage
 
 1. Make sure you have the dataset, `disaster_messages.csv` and `disaster_categories.csv`, inside `data`
