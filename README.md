@@ -2,7 +2,7 @@
 
 In this project, we create a web application that classify disaster messages.
 
-For more detail about the dataset used in the project, go to section [Dataset](##Dataset).
+For more detail about the dataset used in the project, go to section [Dataset](#Dataset).
 
 > For the newer version of dataset see [here](https://appen.com/datasets/combined-disaster-response-data/).
 
