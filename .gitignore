@@ -130,4 +130,5 @@ dmypy.json
 
 .DS_STORE
 data/
+nltk_data/
 tags
