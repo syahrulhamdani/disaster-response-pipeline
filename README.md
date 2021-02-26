@@ -41,7 +41,7 @@ directory.
 2. Perform ETL steps to process both data by running
 
 ```bash
-pipenv run python disaster_messages.csv disaster_categories.csv disaster.db
+pipenv run python data/process_data.py disaster_messages.csv disaster_categories.csv disaster.db
 ```
 
 This will process and transform both dataset and load it in a SQL database `disaster.db`.
