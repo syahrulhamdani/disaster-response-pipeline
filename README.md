@@ -18,34 +18,34 @@ For more detail about the dataset used in the project, go to section [Dataset](#
 
 The project follows directory below
 ```
-|- LICENSE													<- LICENSE file
+|- LICENSE				<- LICENSE file
 |- data
 |  |- disaster_categories.csv				<- categories data
-|  |- disaster_messages.csv					<- messages data
-|  |- process_data.py								<- ETL script
+|  |- disaster_messages.csv				<- messages data
+|  |- process_data.py				<- ETL script
 |
 |- apps
 |  |- templates
-|  |  |- go.html										<- message analysis/classification page
-|  |  |- master.html								<- home page
+|  |  |- go.html				<- message analysis/classification page
+|  |  |- master.html				<- home page
 |  |
 |  |- __init__.py
-|  |- routes.py											<- page routing
+|  |- routes.py				<- page routing
 |
-|- viz															<- statis viz for documentations
+|- viz				<- statis viz for documentations
 |  |- message_categories.png				<- viz of category distribution
 |
 |- models
-|  |- __init__.py										<- functions and classes for modelling
-|  |- model.joblib									<- trained and serialized model used in app
-|  |- eval.txt											<- model performance for each category
+|  |- __init__.py				<- functions and classes for modelling
+|  |- model.joblib				<- trained and serialized model used in app
+|  |- eval.txt				<- model performance for each category
 |
-|- train.py													<- script to train the model
-|- server.py												<- script to run the web app
-|- .env.example											<- example of env variables
-|- Pipfile													<- pip's requirement file
-|- Pipfile.lock											<- dependency reference associated with Pipfile
-|- README.md												<- documentation for developers and users
+|- train.py				<- script to train the model
+|- server.py				<- script to run the web app
+|- .env.example				<- example of env variables
+|- Pipfile				<- pip's requirement file
+|- Pipfile.lock				<- dependency reference associated with Pipfile
+|- README.md				<- documentation for developers and users
 ```
 
 ### Requirements
